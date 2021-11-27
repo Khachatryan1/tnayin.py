@@ -1,0 +1,10 @@
+import random
+
+num1 = random.randrange(20)
+num2 = random.randrange(20)
+answer = -1
+
+while answer != (num1 + num2):
+    answer = int(input(f"Введите ответ для {num1} + {num2}: "))
+else:
+    print('yes')
